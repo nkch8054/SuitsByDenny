@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){t(".track-button").tooltipster();t(document).on("mouseover","a.track-button",function(o){t(this).tooltipster("content",t(this).attr("data-title"))});if(1!=ywot.p){t(document).on("click","a.track-button",function(o){o.preventDefault();t(this).tooltipster("content",t(this).attr("data-title"))})}});

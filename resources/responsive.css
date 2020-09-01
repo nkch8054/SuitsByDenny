@@ -1,0 +1,74 @@
+#fade-quote-carousel{height:180px;}
+
+
+
+@media screen and (min-width: 1000px) {
+
+
+.destopvideo{display:block;}
+
+.mobilevideo{display:none;}
+
+#bg-video video{height:700px !important;}
+
+.mobileateg{display:block;}
+}
+
+
+@media screen and (max-width: 767px) {
+	#fade-quote-carousel {
+    height: 236px;
+}
+#main {
+    width: 100%;
+}
+	.box-measure
+	{height: auto !important;}
+	.testimonial-card .avatar{margin-left: 100px;}
+	.width50 {
+    width: 100% !important;
+    float: left;
+}
+.whitebg{margin-bottom: 14px;}
+.headingdv .heading{float: left !important;
+    width: 100% !important;}
+	..steps-container{padding-bottom: 10px;}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.destopvideo{display:none;}
+.sidenav a{padding: 5px 0px 10px 0px !important; 
+    text-decoration: none;
+    font-size: 17px !important;}
+	.menu {
+    height: 750px !important;}
+	.vertical-text{    margin-top: 35% !important;}
+.container {
+    width: 100% !important;
+}
+   #content1{margin-top:0% !important;}
+   
+     
+	  
+      .mobilevideo{display:block;}
+	  
+	  #bg-video1 video{height:320px !important;}
+	  
+	  .mobileateg{display:none;}
+	  
+	  .loctiondeag{right: 27px !important;}
+	  
+	  .abt-us-heading{padding-top:0px;}
+	  
+.headingdv h1{    font-size: 18px !important;
+    padding-left: 8px;
+	    padding-right: 8px;}
+}
