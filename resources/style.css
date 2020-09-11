@@ -116,7 +116,6 @@ body {
     .sidenav-box a {
         font-size: 18px;
     }
-
 }
 
 .table-responsive {
@@ -125,12 +124,20 @@ body {
     width: 100% !important;
 }
 
+
 .contentwhy {
     box-shadow: 1px 2px 5px 2px #ababab;
     padding: 10px;
     height: 410px;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width:600px) {
+    .contentwhy {
+        height: 440px;
+    }
+}
+
 
 .pres-content {
     margin: 20px 0;
