@@ -1682,8 +1682,7 @@
 			display: block;
 		}
 	</style>
-
-	<div id="mySidenav" class="sidenav" style="width:22%; overflow-y:hidden;background: #fcfcfc">
+	<div id="mySidenav" class="sidenav" style="width:22%; overflow-y:hidden;background: #f7f7f7">
 		<a href="#"><img src="./resources/logo1.png" width="100%;" style="margin-top:10px;"></a>
 		<div class="menu">
 
@@ -1692,6 +1691,24 @@
 			<a id="about_us" href="#aboutus">About Us</a>
 
 			<a id="gallery" href="gallery.html">Gallery</a>
+			<a id="products" class="dropdown-btn">Gallary
+				<i class="fa fa-caret-down"></i>
+			</a>
+
+			<div class="dropdown-container">
+				<a id="bespokesuit" href="collar-style.html">Collar Style</a>
+				<a id="bespokeshirt" href="jacket-style.html">Jacket Style</a>
+				<a id="trouser1" href="ladies-wear.html">Ladies Wear</a>
+				<a id="jackets" href="shirt-style.html">Shirt Style</a>
+				<a id="tuxedos1" href="tuxedos-style.html">Tuxedos</a>
+				<a id="tuxedoshirts" href="mens-jackets.html">Mens Jackets</a>
+				<a id="waistcoat" href="mens-trousers.html">Mens Trousers</a>
+				<a id="topcoats" href="mens-jackets.html">Mens Jackets</a>
+				<a id="blazer" href="mens-coats.html">Mens Coat</a>
+				<a id="gallery-accessories" href="mens-suits.html">Mens Suits</a>
+				<a id="accessories" href="mens-tuxedos.html">Mens Tuxedos</a>
+			</div>
+
 
 			<a id="howtomeasure" href="how-to-measure.html">How To Measure</a>
 
@@ -1710,6 +1727,24 @@
 			<img src="./resources/1.png" style="width: 38px;margin-left: 0px">
 			EXPLORE BESPOKE</span>
 	</div>
+
+	<script>
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+
+		for (i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var dropdownContent = this.nextElementSibling;
+				if (dropdownContent.style.display === "block") {
+					dropdownContent.style.display = "none";
+				} else {
+					dropdownContent.style.display = "block";
+				}
+			});
+		}
+	</script>
+
 
 	<div id="main" class="main-container">
 		<style>
@@ -1816,14 +1851,12 @@
 
 		<div class="clearout"></div>
 		<!--parrelex end-->
-
-
 		<br>
 		<hr>
 		<!--logo end city start-->
 		<div class="col-md-12" id="aboutus">
 			<div class="row" id="aboutus">
-				<h4 style="text-align:center;">About Us</h4>
+				<h4 style="text-align:center;">ABOUT US</h4>
 			</div>
 			<br>
 			<div class="col-md-4">
@@ -2156,11 +2189,6 @@
 						<i class="fa fa-phone" aria-hidden="true"></i>
 
 						(852) 2366 7756 / (852) 9355 7386
-						<br>
-
-						<i class="fa fa-fax" aria-hidden="true"></i>
-
-						(852) 2366 8464
 						<br>
 
 						<i class="fa fa-envelope" aria-hidden="true"></i>
