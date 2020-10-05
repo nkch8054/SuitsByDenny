@@ -1619,11 +1619,9 @@ a {
     position: fixed;
     z-index: 10;
     top: 0;
+    background: rgb(247 247 247);
     left: 0;
-    background: url(https://www.lktailor.com/images/simple-pattern-white-seamless-website-background.jpg);
     overflow-x: hidden;
-
-
     padding-top: 60px;
     cursor: pointer !important;
 }
