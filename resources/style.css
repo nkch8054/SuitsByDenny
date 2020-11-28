@@ -347,7 +347,28 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.video-content {
+    position: absolute;
+    color: white;
+    left: 420px;
+    margin-right: 15px;
+    top: 450px;
+    line-height: 52px;
+    font-size: 32px;
+    text-shadow: 2px 2px #c3bfbf;
+    align-items: end;
+    text-align: right;
+}
+
 @media only screen and (max-width: 767px) {
+
+    .video-content {
+        left: 35px;
+        font-size: 18px;
+        line-height: 30px;
+        top: 140px;
+    }
+
     .backgrounddir {
         background: white;
         background-repeat: no-repeat;
@@ -1109,19 +1130,6 @@ a {
     100% {
         transform: rotate(360deg);
     }
-}
-
-.video-content {
-    position: absolute;
-    color: white;
-    left: 420px;
-    margin-right: 15px;
-    top: 450px;
-    line-height: 52px;
-    font-size: 32px;
-    text-shadow: 2px 2px #c3bfbf;
-    align-items: end;
-    text-align: right;
 }
 
 #preloader {
